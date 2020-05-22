@@ -1,4 +1,7 @@
-
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
 
 @font-face {
     font-family: Font;
@@ -21,6 +24,7 @@ body {
 
 table {
     margin: 0 auto;
+    text-align: center;
 }
 
 .font-yellow {
@@ -70,12 +74,13 @@ p {
 .radio__input {
     position: absolute;
     opacity: 0;
-    /*-webkit-appearance: none;*/
-    /*-moz-appearance: none;*/
-    /*appearance: none;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .radio__icon {
+    margin: 0 auto;
     width: 1em;
     height: 1em;
     background-image: url("../img/non-checked.png");
@@ -111,11 +116,44 @@ p {
 .section__main-img{
    padding: 1em;
     /*margin: 1em;*/
+
+}
+
+.section__main-img div{
     border: 1px solid #FFEC00;
+    height: 300px;
+    width:100%;
+    min-width: 300px;
 }
 
-.section__main-img img{
-    /*height: 100%;*/
-    /*width: 100%;*/
+.icons{
+    height: 1.5em;
+  }
+
+.second-section_img{
+    padding: 1em;
 }
 
+.second-section_img div{
+    border: 1px solid #FFEC00;
+    width:150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.last-section_img div{
+    border: 1px solid #FFEC00;
+    width:100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.last-section__small-img{
+    padding: 0;
+}
+
+.last-section__small-img div{
+    border: 1px solid #FFEC00;
+    width:42px;
+    height: 42px;
+    margin: 0 auto;
+}
