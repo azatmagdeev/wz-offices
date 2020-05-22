@@ -5,20 +5,21 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/style.css">
     <title>Выбор офиса</title>
+    <link rel="stylesheet"
+          href="https://webfonts.creativecloud.com/c/d77121/1w;days-one,1,Wdj:W:n4;open-sans,1,VvF:W:n3,VvH:W:n4,VvJ:W:n6,Vv8:W:n7/l"
+          media="all">
+    <script src="https://webfonts.creativecloud.com/days-one:n4:all;open-sans:n7,n3,n6,n4:all.js"
+            type="text/javascript"></script>
 </head>
 <body>
 <div class="container">
     <div class="section">
-        <!--        <div class="section__header">-->
-        <!--            -->
-        <!--        </div>-->
         <table class="section__table">
             <tr class="section__header">
                 <td>КОЛИЧЕСТВО</td>
-                <td class="font-yellow">ВЫБОР ОФИСА</td>
+                <td class="font-yellow large">ВЫБОР ОФИСА</td>
                 <td>СТИЛЬ</td>
             </tr>
             <tr>
@@ -26,9 +27,9 @@
                     <table class="persons-number">
                         <tr>
                             <td>
-                                <img class="persons-number__img" src="img/person0.png" alt="">
-                                <p>
-                                    4-5 человек
+                                <img class="icons" src="img/person0.png" alt="">
+                                <p class="small">
+                                    4-5 ЧЕЛОВЕК
                                 </p>
                             </td>
                             <td>
@@ -40,9 +41,9 @@
                         </tr>
                         <tr>
                             <td>
-                                <img class="persons-number__img" src="img/persons1.png" alt="">
-                                <p>
-                                    7-9 человек
+                                <img class="icons" src="img/persons1.png" alt="">
+                                <p class="small">
+                                    7-8 ЧЕЛОВЕК
                                 </p>
                             </td>
                             <td>
@@ -54,9 +55,9 @@
                         </tr>
                         <tr>
                             <td>
-                                <img class="persons-number__img" src="img/persons2.png" alt="">
-                                <p>
-                                    10-12 человек
+                                <img class="icons" src="img/persons2.png" alt="">
+                                <p class="small">
+                                    10-12 ЧЕЛОВЕК
                                 </p>
                             </td>
                             <td>
@@ -68,9 +69,9 @@
                         </tr>
                         <tr>
                             <td>
-                                <img class="persons-number__img" src="img/persons3.png" alt="">
-                                <p>
-                                    15-20 человек
+                                <img class="icons" src="img/persons3.png" alt="">
+                                <p class="small">
+                                    15-20 ЧЕЛОВЕК
                                 </p>
                             </td>
                             <td>
@@ -82,9 +83,9 @@
                         </tr>
                         <tr>
                             <td>
-                                <img class="persons-number__img" src="img/persons-another.png" alt="">
-                                <p>
-                                    другое
+                                <img class="icons" src="img/persons-another.png" alt="">
+                                <p class="small">
+                                    ДРУГОЕ
                                 </p>
                             </td>
                             <td>
@@ -98,8 +99,7 @@
                     </table>
                 </td>
                 <td class="section__main-img">
-<!--                    <img src="https://placekitten.com/200/200" alt="">-->
-                    <div ></div>
+                    <div> #1</div>
                 </td>
                 <td>
                     <table>
@@ -111,8 +111,8 @@
                                 </label>
                             </td>
                             <td>
-                                <img class="persons-number__img" src="img/style-classic.png" alt="">
-                                <p>
+                                <img class="icons" src="img/style-classic.png" alt="">
+                                <p class="small">
                                     NEW CLASSIC
                                 </p>
                             </td>
@@ -125,8 +125,8 @@
                                 </label>
                             </td>
                             <td>
-                                <img class="persons-number__img" src="img/style-loft.png" alt="">
-                                <p>
+                                <img class="icons" src="img/style-loft.png" alt="">
+                                <p class="small">
                                     WHITE LOFT
                                 </p>
                             </td>
@@ -139,8 +139,8 @@
                                 </label>
                             </td>
                             <td>
-                                <img class="persons-number__img" src="img/style-wood.png" alt="">
-                                <p>
+                                <img class="icons" src="img/style-wood.png" alt="">
+                                <p class="small">
                                     EСО WOOD
                                 </p>
                             </td>
@@ -153,8 +153,8 @@
                                 </label>
                             </td>
                             <td>
-                                <img class="persons-number__img" src="img/style-shell.png" alt="">
-                                <p>
+                                <img class="icons" src="img/style-shell.png" alt="">
+                                <p class="small">
                                     SHELL & CORE
                                 </p>
                             </td>
@@ -162,43 +162,41 @@
                         <tr>
                             <td>
                                 <label class="radio option">
-                                    <input class="radio__input" type="radio" name="office_style" id="">
+                                    <input class="radio__input" type="radio" name="office_bonus" id="" checked disabled>
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
-                            <td>
-                                <img class="persons-number__img" src="img/persons-another.png" alt="">
+                            <td class="flex">
                                 <p>
-                                    NEW CLASSIC
+                                    <span class="font-yellow large">10</span><br>
+                                    <span class="small">СЕРВИСОВ <br>+ ЮР. АДРЕС</span>
                                 </p>
+                                <img class="services" src="img/office-services.png" alt="">
                             </td>
                         </tr>
-
-
                     </table>
 
                 </td>
             </tr>
             <tr class="section__footer">
                 <td></td>
-                <td><button>Дальше</button></td>
+                <td>
+                    <button>ДАЛЬШЕ</button>
+                </td>
                 <td></td>
             </tr>
         </table>
-<!--        <div class="section__footer">-->
-<!--            -->
-<!--        </div>-->
     </div>
-    <div class="section">
+    <div class="section second-section">
         <div class="section__header flex">
-            <p class="font-yellow">ВЫБОР ДЕТАЛЕЙ</p>
+            <p class="font-yellow large">ВЫБОР ДЕТАЛЕЙ</p>
             <p>УКАЖИТЕ, ЧТО ВЫ ХОТИТЕ ВИДЕТЬ В ВАШЕМ ОФИСЕ </p>
-            <p><span class="font-yellow">*</span>ПО ВАШЕМУ ТЗ/ЕСТЬ ВЫБОР</p>
+            <p class="small"><span class="font-yellow large"> * </span>ПО ВАШЕМУ ТЗ/ЕСТЬ ВЫБОР</p>
         </div>
         <table class="section__table">
-            <tr>
-                <td> СТЕНА «А»</td>
-                <td>ПОРСТРАНСТВО</td>
+            <tr class="akrobat large">
+                <td>СТЕНА «А»</td>
+                <td>ПРОСТРАНСТВО</td>
                 <td>СТЕНА «В»</td>
             </tr>
             <tr>
@@ -207,15 +205,15 @@
                         <tr>
                             <td>
                                 <img class="icons" src="img/icon-graffity.png" alt="">
-                                <p>ГРАФФИТИ </p>
+                                <p class="small">ГРАФФИТИ </p>
                             </td>
                             <td>
                                 <img class="icons" src="img/icon-picture.png" alt="">
-                                <p>КАРТИНА </p>
+                                <p class="small">КАРТИНА </p>
                             </td>
                             <td>
                                 <img class="icons" src="img/icon-lamp.png" alt="">
-                                <p>ВЫВЕСКА</p>
+                                <p class="small">ВЫВЕСКА</p>
                             </td>
 
                         </tr>
@@ -242,20 +240,20 @@
                     </table>
                 </td>
 
-                <td>
+                <td class="borders">
                     <table>
                         <tr>
                             <td>
                                 <img class="icons" src="img/icon-projector.png" alt="">
-                                <p>ПРОЖЕКТОР  </p>
+                                <p class="small">ПРОЖЕКТОР </p>
                             </td>
                             <td>
                                 <img class="icons" src="img/icon-board.png" alt="">
-                                <p>БОРД  </p>
+                                <p class="small">БОРД </p>
                             </td>
                             <td>
                                 <img class="icons" src="img/icon-plant.png" alt="">
-                                <p>РАСТЕНИЕ</p>
+                                <p class="small">РАСТЕНИЕ</p>
                             </td>
 
                         </tr>
@@ -287,15 +285,15 @@
                         <tr>
                             <td>
                                 <img class="icons" src="img/icon-mirror.png" alt="">
-                                <p>ЗЕРКАЛЬНАЯ </p>
+                                <p class="small">ЗЕРКАЛЬНАЯ </p>
                             </td>
                             <td>
                                 <img class="icons" src="img/icon-glass.png" alt="">
-                                <p>СТЕКЛЯНАЯ  </p>
+                                <p class="small">СТЕКЛЯНАЯ </p>
                             </td>
                             <td>
                                 <img class="icons" src="img/icon-magnet.png" alt="">
-                                <p>МАГНИТНАЯ</p>
+                                <p class="small">МАГНИТНАЯ</p>
                             </td>
 
                         </tr>
@@ -324,14 +322,14 @@
 
             </tr>
             <tr>
-                <td  class="second-section_img">
-                    <div></div>
+                <td class="second-section_img">
+                    <div>#2</div>
                 </td>
-                <td  class="second-section_img">
-                    <div></div>
+                <td class="second-section_img">
+                    <div>#3</div>
                 </td>
-                <td  class="second-section_img">
-                    <div></div>
+                <td class="second-section_img">
+                    <div>#4</div>
                 </td>
             </tr>
             <tr class="section__footer">
@@ -343,30 +341,30 @@
             </tr>
         </table>
     </div>
-    <div class="section">
+    <div class="section last-section">
         <div class="section__header">
             <p>ВАШ ОФИС</p>
         </div>
         <table class="section__table">
             <tr>
                 <td class="section__main-img">
-                    <div></div>
+                    <div>#5</div>
                 </td>
                 <td>
                     <table>
-                        <tr >
+                        <tr>
                             <td class="last-section_img">
                                 <div>#6</div>
                             </td>
 
                         </tr>
-                        <tr >
+                        <tr>
                             <td class="last-section_img">
                                 <div>#7</div>
                             </td>
 
                         </tr>
-                        <tr >
+                        <tr>
                             <td class="last-section_img">
                                 <div>#8</div>
                             </td>
@@ -396,7 +394,7 @@
                                 </label>
                             </td>
                             <td class="last-section__small-img">
-                                <div>#10</div>
+                                <div>#11</div>
                             </td>
                         </tr>
                         <tr>
@@ -407,7 +405,7 @@
                                 </label>
                             </td>
                             <td class="last-section__small-img">
-                                <div>#10</div>
+                                <div>#12</div>
                             </td>
                         </tr>
                         <tr>
