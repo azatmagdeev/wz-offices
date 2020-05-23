@@ -16,7 +16,12 @@
     src: url("../fonts/Days_One/DaysOne-Regular.ttf");
 }
 
-body, button, input {
+body, input {
+    font-family: daysOne, sans-serif;
+    font-weight: 400;
+}
+
+button {
     font-family: daysOne, sans-serif;
     font-weight: 400;
 }
@@ -51,8 +56,8 @@ p {
 
 /*container*/
 .container {
-    overflow: auto;
-    max-width: 960px;
+
+    /*max-width: 960px;*/
     margin: 0 auto;
 }
 
@@ -61,8 +66,14 @@ p {
 /*section*/
 .section {
     width: 100%;
-    min-width: 400px;
+    /*overflow-x: auto;*/
+    max-width: 960px;
+    min-width: 700px;
     text-align: center;
+    margin: 0 auto;
+    height: 70vh;
+    max-height: 800px;
+    min-height: 500px;
 }
 
 .section__main-img {
@@ -84,7 +95,8 @@ p {
 .section__table {
     margin: 1em 0;
     width: 100%;
-    min-width: 400px;
+    /*min-width: 400px;*/
+    height: 100%;
     border-collapse: collapse;
 }
 
@@ -96,6 +108,8 @@ p {
 
 /* Section header */
 .section__header {
+    width: 100%;
+    margin: 0 auto;
     color: white;
     background-color: black;
     padding: 1em;
@@ -132,7 +146,7 @@ p {
 
 /*section footer*/
 .section__footer button {
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
     border: 2px solid #FFEC00;
     border-radius: 5px;
     padding: 0.5em 3em;
@@ -217,10 +231,13 @@ p {
 .section-main {
     display: flex;
     width: 95%;
-    padding: 2.5%;
+    padding:  2.5% 2.5% 0 2.5%;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .section-main__col {
+
     padding: 1em;
     width: 60%;
 }
@@ -271,49 +288,48 @@ p {
 
 /*section-footer*/
 .section-footer {
-    display: flex;
-    width: 95%;
-    padding: 2.5%;
+
 }
 
 .section-footer__col {
-    width: 70%;
+    /*border: 1px dotted grey;*/
+    display: flex;
+    align-items: center;
 }
 
 .section-footer__coll {
-    /*justify-self: end;*/
-    width: 100%;
+
+    /*border: 1px dotted grey;*/
 
 }
 
 .section-footer__row {
+    padding: 0.5em;
+    width: 100%;
+    /*border: 1px dotted grey;*/
     display: flex;
-    flex-wrap: nowrap;
-    padding: 1em;
-    text-align: center;
-    display: flex;
+    justify-content: space-around;
+
 }
 
 .section-footer__row .price {
-    padding: 1em;
+    padding: 1em 2em;
     background-color: #FFEC00;
     border-radius: 5px;
-    width: 50%;
-    height: 100%;
-    box-shadow: 0 0 5px 3px grey;
-    /*justify-self: end;*/
     float: right;
+    box-shadow: 0 0 5px 3px grey;
+    width:100%;
 }
 
-.section-footer__row input {
+.section-footer__col input {
     border: 1px solid grey;
     box-shadow: 0 0 0 2px #FFEC00;
     border-radius: 5px;
-    padding: 0.5em 1.5em;
+    padding: 0.5em;
     margin-right: 0.5em;
 }
 
-.section-footer__row input[type="button"] {
+.section-footer__col input[type="button"] {
     background-color: black;
     color: white;
 }
