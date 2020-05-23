@@ -1,0 +1,19 @@
+{
+  "name": "wz-offices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azatmagdeev/wz-offices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azatmagdeev/wz-offices/issues"
+  },
+  "homepage": "https://github.com/azatmagdeev/wz-offices#readme"
+}

@@ -4,16 +4,25 @@
     align-items: center;
 }
 
+/****** fonts ******/
 @font-face {
     font-family: Akrobat;
     src: url('../fonts/akrobat-light.woff2') format('woff2'),
     url('../fonts/akrobat-light.woff') format('woff');
 }
 
-body {
-    font-family: sans-serif;
+@font-face {
+    font-family: daysOne;
+    src: url("../fonts/Days_One/DaysOne-Regular.ttf");
+}
+
+body, button, input {
+    font-family: daysOne, sans-serif;
     font-weight: 400;
 }
+
+/****** fonts end ******/
+
 
 table {
     margin: 0 auto;
@@ -23,11 +32,11 @@ table {
 /*td {*/
 /*    padding: 0;*/
 /*}*/
-.large{
+.large {
     font-size: larger;
 }
 
-.small{
+.small {
     font-size: x-small;
     font-weight: bold;
 }
@@ -46,6 +55,7 @@ p {
     max-width: 960px;
     margin: 0 auto;
 }
+
 /*container end*/
 
 /*section*/
@@ -61,12 +71,13 @@ p {
 
 .section__main-img div {
     border: 1px solid #FFEC00;
-    height: 300px;
+    height: 350px;
     width: 100%;
-    min-width: 300px;
+    min-width: 400px;
     max-width: 400px;
     margin: 0 auto;
 }
+
 /*section end*/
 
 /*section table*/
@@ -80,6 +91,7 @@ p {
 .section__table td {
     padding: 0.5em;
 }
+
 /*section table end*/
 
 /* Section header */
@@ -88,6 +100,7 @@ p {
     background-color: black;
     padding: 1em;
 }
+
 /* Section header end */
 
 /* Radio */
@@ -101,8 +114,8 @@ p {
 
 .radio__icon {
     margin: 0 auto;
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
     background-image: url("../img/non-checked.png");
     background-size: 1em;
     background-repeat: no-repeat;
@@ -113,6 +126,7 @@ p {
 .radio__input:checked + .radio__icon {
     background-image: url("../img/checked.png");
 }
+
 /* Radio checked end*/
 /* end Radio */
 
@@ -124,6 +138,7 @@ p {
     padding: 0.5em 3em;
     background-color: transparent;
 }
+
 /*section footer end*/
 
 /*icons*/
@@ -131,18 +146,19 @@ p {
     height: 2em;
 }
 
-.services{
+.services {
     height: 2em;
     padding-left: 1em;
 }
+
 /*icons end*/
 
 /*second section*/
-.akrobat{
-    font-family: Akrobat,sans-serif;
+.akrobat {
+    font-family: Akrobat, sans-serif;
 }
 
-.borders{
+.borders {
     border-left: solid #FFEC00 1px;
     border-right: solid #FFEC00 1px;
 }
@@ -160,9 +176,10 @@ p {
     margin: 0 auto;
 }
 
-.second-section table{
+.second-section table {
     width: 100%;
 }
+
 /*second section end*/
 
 /*last section*/
@@ -185,18 +202,123 @@ p {
     margin: 0 auto;
 }
 
-.last-section table{
+.last-section table {
     width: 100%;
 }
 
-.last-section .section__table td{
+.last-section .section__table td {
     padding: 0;
 }
+
 /*last section end*/
 
 
+/*last-section section-main*/
+.section-main {
+    display: flex;
+    width: 95%;
+    padding: 2.5%;
+}
 
+.section-main__col {
+    padding: 1em;
+    width: 60%;
+}
 
+.section-main__coll {
+    padding: 1em;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-main__small {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+.section-main__small-pic {
+    border: 2px solid #FFEC00;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.section-main__med-pic {
+    border: 2px solid #FFEC00;
+    position: relative;
+    /*padding-top: 48%;*/
+    /*padding-bottom: 49%;*/
+    height: 100%;
+}
+
+.section-main__big-pic {
+    border: 2px solid #FFEC00;
+    width: 100%;
+    padding: 49% 0;
+
+}
+
+.content {
+    position: absolute;
+}
+
+/*last-section main end*/
+
+/*section-footer*/
+.section-footer {
+    display: flex;
+    width: 95%;
+    padding: 2.5%;
+}
+
+.section-footer__col {
+    width: 70%;
+}
+
+.section-footer__coll {
+    /*justify-self: end;*/
+    width: 100%;
+
+}
+
+.section-footer__row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+}
+
+.section-footer__row .price {
+    padding: 1em;
+    background-color: #FFEC00;
+    border-radius: 5px;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 5px 3px grey;
+    /*justify-self: end;*/
+    float: right;
+}
+
+.section-footer__row input {
+    border: 1px solid grey;
+    box-shadow: 0 0 0 2px #FFEC00;
+    border-radius: 5px;
+    padding: 0.5em 1.5em;
+    margin-right: 0.5em;
+}
+
+.section-footer__row input[type="button"] {
+    background-color: black;
+    color: white;
+}
+
+/*section-footer end*/
 
 
 
