@@ -8,76 +8,76 @@ section3.innerHTML = `
 
         <div class="section-main">
             <div class="section-main__col">
-                <div class="section-main__big-pic">
-                    <div class="content">#5</div>
+                <div class="section-main__big-pic" id="field_5">
+                   
                 </div>
             </div>
             <div class="section-main__coll">
-                <div class="section-main__med-pic">
-                    <div class="content">#6</div>
+                <div class="section-main__med-pic" id="field_6">
+                    
                 </div>
-                <div class="section-main__med-pic">
-                    <div class="content">#7</div>
+                <div class="section-main__med-pic" id="field_7">
+                  
                 </div>
-                <div class="section-main__med-pic">
-                    <div class="content">#8</div>
+                <div class="section-main__med-pic" id="field_8">
+                    
                 </div>
             </div>
             <div class="section-main__coll">
                 <div class="section-main__small">
                     <label class="check option">
-                        <input class="radio__input" type="checkbox" name="wall-A" id="">
+                        <input class="radio__input" type="checkbox" name="wall-A" id="" checked disabled>
                         <div class="radio__icon"></div>
                     </label>
-                    <div class="section-main__small-pic">#10</div>
+                    <div class="section-main__small-pic" id="field_10"></div>
                 </div>
                 <div class="section-main__small">
                     <label class="check option">
-                        <input class="radio__input" type="checkbox" name="wall-A" id="">
+                        <input class="radio__input" type="checkbox" name="wall-A" id="" checked disabled>
                         <div class="radio__icon"></div>
                     </label>
-                    <div class="section-main__small-pic">#10</div>
+                    <div class="section-main__small-pic" id="field_11"></div>
                 </div>
                 <div class="section-main__small">
                     <label class="check option">
-                        <input class="radio__input" type="checkbox" name="wall-A" id="">
+                        <input class="radio__input" type="checkbox" name="wall-A" id="" checked disabled>
                         <div class="radio__icon"></div>
                     </label>
-                    <div class="section-main__small-pic">#10</div>
+                    <div class="section-main__small-pic" id="field_12"></div>
                 </div>
                 <div class="section-main__small">
                     <label class="check option">
-                        <input class="radio__input" type="checkbox" name="wall-A" id="">
+                        <input class="radio__input" type="checkbox" name="wall-A" id="" checked disabled>
                         <div class="radio__icon"></div>
                     </label>
-                    <div class="section-main__small-pic">#10</div>
+                    <div class="section-main__small-pic" id="field_13"></div>
                 </div>
                 <div class="section-main__small">
                     <label class="check option">
-                        <input class="radio__input" type="checkbox" name="wall-A" id="">
+                        <input class="radio__input" type="checkbox" name="wall-A" id="" checked disabled>
                         <div class="radio__icon"></div>
                     </label>
-                    <div class="section-main__small-pic">#10</div>
+                    <div class="section-main__small-pic" id="field_14"></div>
                 </div>
                 <div class="section-main__small">
                     <label class="check option">
-                        <input class="radio__input" type="checkbox" name="wall-A" id="">
+                        <input class="radio__input" type="checkbox" name="wall-A" id="" checked disabled>
                         <div class="radio__icon"></div>
                     </label>
-                    <div class="section-main__small-pic">#10</div>
+                    <div class="section-main__small-pic" id="field_15"></div>
                 </div>
             </div>
         </div>
         <div class="section-footer">
             <div class="section-footer__row">
                 <div class="section-footer__col">
-                    <div class="text">
+                    
                         ОБЩАЯ СТОИМСОТЬ ВЫБРАНОГО ВАМИ ОФИСА
-                    </div>
+                    
                 </div>
                 <div class="section-footer__col">
                     <div class="price">
-                        #16
+                        <div class="content" id="price"></div>
                     </div>
                 </div>
             </div>

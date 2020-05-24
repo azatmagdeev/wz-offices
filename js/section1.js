@@ -81,7 +81,7 @@ section1.innerHTML = `
                         <tr>
                             <td>
                                 <label for="more">
-                                <img class="icons" src="img/persons-another.png" alt="">
+                                <img class="icons" src="img/persons-more.png" alt="">
                                 <p class="small">
                                     БОЛЬШЕ
                                 </p>
@@ -180,7 +180,7 @@ section1.innerHTML = `
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
-                            <td >
+                            <td>
                             <label for="services" class="flex">
                                 <p>
                                     <span class="font-yellow large">10</span><br>

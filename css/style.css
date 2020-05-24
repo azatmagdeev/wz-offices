@@ -280,8 +280,10 @@ p {
     position: relative;
     height: 100%;
     width: 50%;
-    background: url("../pictures/A2.jpg");
-    background-size: auto 100%;
+    background-image: url("../pictures/A2.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section-main__med-pic {
@@ -302,45 +304,48 @@ p {
     background-size: auto 100%;
 }
 
-.content {
-    position: absolute;
-}
+
 
 /*last-section main end*/
 
 /*section-footer*/
 .section-footer {
-
+ max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .section-footer__col {
-    /*border: 1px dotted grey;*/
+    border: 1px dotted grey;
     display: flex;
     align-items: center;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .section-footer__coll {
-
-    /*border: 1px dotted grey;*/
-
+width: 25%;
+    border: 1px dotted grey;
 }
 
 .section-footer__row {
     padding: 0.5em;
     width: 100%;
-    /*border: 1px dotted grey;*/
+    border: 1px dotted grey;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 
 }
 
 .section-footer__row .price {
+    position: relative;
     padding: 1em 2em;
     background-color: #FFEC00;
     border-radius: 5px;
-    float: right;
     box-shadow: 0 0 5px 3px grey;
     width:100%;
+
+
 }
 
 .section-footer__col input {
@@ -355,6 +360,15 @@ p {
 .section-footer__col input[type="button"] {
     background-color: black;
     color: white;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    font-size: xx-large;
+
+    margin: auto auto;
+    /*padding: ;*/
 }
 
 /*section-footer end*/

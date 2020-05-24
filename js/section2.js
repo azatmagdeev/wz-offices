@@ -14,10 +14,11 @@ section2.innerHTML = `
             </tr>
             <tr>
                 <td>
+                <form id="wall_a">
                     <table>
                         <tr>
                             <td>
-                                <img class="icons" src="img/icon-graffity.png" alt="">
+                                <img class="icons" src="img/icon-graffiti.png" alt="">
                                 <p class="small">ГРАФФИТИ </p>
                             </td>
                             <td>
@@ -33,27 +34,29 @@ section2.innerHTML = `
                         <tr>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="wall_a" id="graffiti" checked>
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="wall_a" id="picture">
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="wall_a" id="lamp">
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                         </tr>
                     </table>
+                 </form>   
                 </td>
 
                 <td class="borders">
+                <form id="space">
                     <table>
                         <tr>
                             <td>
@@ -73,27 +76,29 @@ section2.innerHTML = `
                         <tr>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="space" id="projector" checked>
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="space" id="board">
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="space" id="plant">
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                         </tr>
                     </table>
+                    </form>
                 </td>
 
                 <td>
+                <form id="wall_b">
                     <table>
                         <tr>
                             <td>
@@ -113,36 +118,37 @@ section2.innerHTML = `
                         <tr>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="wall-b" id="mirror" checked>
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="wall-b" id="glass">
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                             <td>
                                 <label class="check option">
-                                    <input class="radio__input" type="checkbox" name="wall-A" id="">
+                                    <input class="radio__input" type="radio" name="wall-b" id="magnet">
                                     <div class="radio__icon"></div>
                                 </label>
                             </td>
                         </tr>
                     </table>
+                    </form>
                 </td>
 
             </tr>
             <tr>
                 <td class="second-section_img">
-                    <div>#2</div>
+                    <div id="field_2"></div>
                 </td>
                 <td class="second-section_img">
-                    <div>#3</div>
+                    <div id="field_3"></div>
                 </td>
                 <td class="second-section_img">
-                    <div>#4</div>
+                    <div id="field_4"></div>
                 </td>
             </tr>
             <tr class="section__footer">
