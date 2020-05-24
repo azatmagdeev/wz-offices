@@ -94,8 +94,9 @@ p {
     min-width: 400px;
     max-width: 400px;
     margin: 0 auto;
-    background: url("../pictures/A1.jpg");
-    background-size: 100%;
+    background: url("../pictures/A1.jpg") round no-repeat;
+    background-size: auto 100%;
+
 }
 
 /*section end*/
