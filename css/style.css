@@ -94,6 +94,8 @@ p {
     min-width: 400px;
     max-width: 400px;
     margin: 0 auto;
+    background: url("../pictures/A1.jpg");
+    background-size: 100%;
 }
 
 /*section end*/
@@ -200,6 +202,8 @@ p {
     max-height: 270px;
     min-height: 150px;
     margin: 0 auto;
+    background: url("../pictures/A2.jpg");
+    background-size: auto 100%;
 }
 
 .second-section table {
@@ -275,6 +279,8 @@ p {
     position: relative;
     height: 100%;
     width: 50%;
+    background: url("../pictures/A2.jpg");
+    background-size: auto 100%;
 }
 
 .section-main__med-pic {
@@ -283,13 +289,16 @@ p {
     /*padding-top: 48%;*/
     /*padding-bottom: 49%;*/
     height: 100%;
+    background: url("../pictures/A3.jpg");
+    background-size: auto 100%;
 }
 
 .section-main__big-pic {
     border: 2px solid #FFEC00;
     width: 100%;
     padding: 49% 0;
-
+    background: url("../pictures/A1.jpg");
+    background-size: auto 100%;
 }
 
 .content {
