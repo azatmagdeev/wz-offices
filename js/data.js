@@ -1,9 +1,9 @@
 
 
 export const pics = {
-    a1: '../pictures/A1.jpg',
-    a2: '../pictures/A2.jpg',
-    a3: '../pictures/A3.jpg',
+    a1: './pictures/A1.jpg',
+    a2: './pictures/A2.jpg',
+    a3: './pictures/A3.jpg',
     a4: null,
     b1: null,
     b2: null,
