@@ -32,7 +32,7 @@ section1.innerHTML = `
                         <tr>                     
                             <td>
                             <label for="78">
-                                <img class="icons" src="../img/persons1.png" alt="">
+                                <img class="icons" src="img/persons1.png" alt="">
                                 <p class="small">
                                     7-8 ЧЕЛОВЕК
                                 </p>
@@ -49,7 +49,7 @@ section1.innerHTML = `
                         <tr>
                             <td>
                                 <label for="1012">
-                                <img class="icons" src="../img/persons2.png" alt="">
+                                <img class="icons" src="img/persons2.png" alt="">
                                 <p class="small">
                                     10-12 ЧЕЛОВЕК
                                 </p>
@@ -65,7 +65,7 @@ section1.innerHTML = `
                         <tr>
                             <td>
                                 <label for="1520">
-                                <img class="icons" src="../img/persons3.png" alt="">
+                                <img class="icons" src="img/persons3.png" alt="">
                                 <p class="small">
                                     15-20 ЧЕЛОВЕК
                                 </p>
@@ -81,7 +81,7 @@ section1.innerHTML = `
                         <tr>
                             <td>
                                 <label for="more">
-                                <img class="icons" src="../img/persons-another.png" alt="">
+                                <img class="icons" src="img/persons-another.png" alt="">
                                 <p class="small">
                                     БОЛЬШЕ
                                 </p>
@@ -118,7 +118,7 @@ section1.innerHTML = `
                             </td>
                             <td>
                                 <label for="classic">
-                                    <img class="icons" src="../img/style-classic.png" alt="">
+                                    <img class="icons" src="img/style-classic.png" alt="">
                                     <p class="small">
                                         NEW CLASSIC
                                     </p>
@@ -134,7 +134,7 @@ section1.innerHTML = `
                             </td>
                             <td>
                                 <label for="loft">
-                                <img class="icons" src="../img/style-loft.png" alt="">
+                                <img class="icons" src="img/style-loft.png" alt="">
                                 <p class="small">
                                     WHITE LOFT
                                 </p>
@@ -150,7 +150,7 @@ section1.innerHTML = `
                             </td>
                             <td>
                                 <label for="wood">
-                                <img class="icons" src="../img/style-wood.png" alt="">
+                                <img class="icons" src="img/style-wood.png" alt="">
                                 <p class="small">
                                     EСО WOOD
                                 </p>
@@ -166,7 +166,7 @@ section1.innerHTML = `
                             </td>
                             <td>
                                 <label for="shell">
-                                <img class="icons" src="../img/style-shell.png" alt="">
+                                <img class="icons" src="img/style-shell.png" alt="">
                                 <p class="small">
                                     SHELL & CORE
                                 </p>
@@ -186,7 +186,7 @@ section1.innerHTML = `
                                     <span class="font-yellow large">10</span><br>
                                     <span class="small">СЕРВИСОВ <br>+ ЮР. АДРЕС</span>
                                 </p>
-                                <img class="services" src="../img/office-services.png" alt="">
+                                <img class="services" src="img/office-services.png" alt="">
                              </label>   
                             </td>
                         </tr>
