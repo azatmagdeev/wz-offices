@@ -312,6 +312,7 @@ p {
     padding: 48% 0;
     background: url("../pictures/A1.jpg");
     background-size: auto 100%;
+    min-height: 412px;
 }
 
 
