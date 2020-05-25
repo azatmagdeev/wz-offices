@@ -85,7 +85,7 @@ section3.innerHTML = `
                 <div class="section-footer__col">
                     <input class="input" type="text" name="" id="" placeholder="имя">
                     <input class="input" type="tel" name="" id="" placeholder="телефон">
-                    <input type="button" value="ХОЧУ ТАКОЙ ОФИС">
+                    <input type="submit" value="ХОЧУ ТАКОЙ ОФИС">
                 </div>
                 <div class="section-footer__col">
                     <div class="tel">

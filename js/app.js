@@ -212,7 +212,8 @@ function check_wall_b_id(id, style) {
 
 
 const nextBtn = section1.querySelector('button#next');
-nextBtn.addEventListener('click', () => {
+nextBtn.addEventListener('click', (e) => {
+    e.preventDefault();
 
     check_wall_a_id(wall_a_id,office_style_id);
     check_space_id(space_id,office_style_id);
@@ -221,7 +222,8 @@ nextBtn.addEventListener('click', () => {
     nextSection(section1,section2);
 
     const resultBtn = section2.querySelector('button#result');
-    resultBtn.addEventListener('click', () => {
+    resultBtn.addEventListener('click', (e) => {
+        e.preventDefault();
 
         field_12.style.backgroundImage = `url(${pics.s5})`;
 
@@ -303,7 +305,3 @@ function nextSection(section,next_section){
         }
     }
 }
-
-// function check_previews(style){
-//     if(office_style_id ===);
-// }
