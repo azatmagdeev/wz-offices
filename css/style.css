@@ -309,10 +309,10 @@ p {
 
 .section-main__big-pic {
     border: 2px solid #FFEC00;
-    padding: 48% 0;
+    /*padding: 48% 0;*/
     background: url("../pictures/A1.jpg");
     background-size: auto 100%;
-    min-height: 412px;
+    height: 100%;
 }
 
 
