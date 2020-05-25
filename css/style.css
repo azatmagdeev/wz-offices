@@ -8,6 +8,10 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    margin: 0;
+}
+
 .flex {
     display: flex;
     justify-content: space-around;
@@ -64,7 +68,6 @@ p {
 /*container*/
 .container {
 
-    /*max-width: 960px;*/
     margin: 0 auto;
 }
 
@@ -72,15 +75,12 @@ p {
 
 /*section*/
 .section {
-    width: 100%;
-    /*overflow-x: auto;*/
+    width: 100vw;
     max-width: 960px;
     min-width: 700px;
     text-align: center;
     margin: 0 auto;
-    /*height: 70vh;*/
-    /*max-height: 800px;*/
-    /*min-height: 500px;*/
+    height: 90vh;
 }
 
 .section__main-img {
@@ -111,7 +111,7 @@ p {
 }
 
 .section__table td {
-    padding: 1em;
+    padding: .5em;
 }
 
 
@@ -181,6 +181,10 @@ p {
 /*icons end*/
 
 /*second section*/
+.second-section .section__table{
+    height: 80vh;
+}
+
 .akrobat {
     font-family: Akrobat, sans-serif;
 }
@@ -214,6 +218,9 @@ p {
 /*second section end*/
 
 /*last section*/
+.last-section{
+    min-width: 750px;
+}
 .last-section_img div {
     border: 1px solid #FFEC00;
     width: 100px;
@@ -245,22 +252,26 @@ p {
 
 
 /*last-section section-main*/
+.last-section{
+    height: 90vh;
+}
 .section-main {
     display: flex;
     width: 95%;
     padding:  1% 2.5% 0 2.5%;
     margin: 0 auto;
     max-width: 800px;
+    height: 70vh;
 }
 
 .section-main__col {
 
-    padding: 1em;
+    margin: 0.5em;
     width: 60%;
 }
 
 .section-main__coll {
-    padding: 1em;
+    margin: 0.5em;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -279,9 +290,9 @@ p {
     border: 2px solid #FFEC00;
     position: relative;
     height: 100%;
-    width: 50%;
-    background-image: url("../pictures/A2.jpg");
-    background-size: 100% auto;
+    width: 55%;
+    background-image: url("../img/person0.png");
+    background-size:  auto 80%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -289,17 +300,16 @@ p {
 .section-main__med-pic {
     border: 2px solid #FFEC00;
     position: relative;
-    /*padding-top: 48%;*/
-    /*padding-bottom: 49%;*/
     height: 100%;
+
+    width: 100%;
     background: url("../pictures/A3.jpg");
     background-size: auto 100%;
 }
 
 .section-main__big-pic {
     border: 2px solid #FFEC00;
-    width: 100%;
-    padding: 49% 0;
+    padding: 48% 0;
     background: url("../pictures/A1.jpg");
     background-size: auto 100%;
 }
@@ -316,7 +326,7 @@ p {
 }
 
 .section-footer__col {
-    border: 1px dotted grey;
+    /*border: 1px dotted grey;*/
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -325,13 +335,13 @@ p {
 
 .section-footer__coll {
 width: 25%;
-    border: 1px dotted grey;
+    /*border: 1px dotted grey;*/
 }
 
 .section-footer__row {
     padding: 0.5em;
     width: 100%;
-    border: 1px dotted grey;
+    /*border: 1px dotted grey;*/
     display: flex;
     justify-content: flex-end;
 
@@ -363,11 +373,15 @@ width: 25%;
 }
 
 .content {
+
     width: 100%;
     position: absolute;
-    font-size: xx-large;
+    font-size: 2.5em;
+    top:-.5rem;
 
+    right:0;
     margin: auto auto;
+
     /*padding: ;*/
 }
 
