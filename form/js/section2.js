@@ -18,15 +18,15 @@ section2.innerHTML = `
                     <table>
                         <tr>
                             <td>
-                                <img class="icons" src="img/icon-graffiti.png" alt="">
+                                <img class="icons" src="form/img/icon-graffiti.png" alt="">
                                 <p class="small">ГРАФФИТИ </p>
                             </td>
                             <td>
-                                <img class="icons" src="img/icon-picture.png" alt="">
+                                <img class="icons" src="form/img/icon-picture.png" alt="">
                                 <p class="small">КАРТИНА </p>
                             </td>
                             <td>
-                                <img class="icons" src="img/icon-lamp.png" alt="">
+                                <img class="icons" src="form/img/icon-lamp.png" alt="">
                                 <p class="small">ВЫВЕСКА</p>
                             </td>
 
@@ -60,15 +60,15 @@ section2.innerHTML = `
                     <table>
                         <tr>
                             <td>
-                                <img class="icons" src="img/icon-projector.png" alt="">
+                                <img class="icons" src="form/img/icon-projector.png" alt="">
                                 <p class="small">ПРОЖЕКТОР </p>
                             </td>
                             <td>
-                                <img class="icons" src="img/icon-board.png" alt="">
+                                <img class="icons" src="form/img/icon-board.png" alt="">
                                 <p class="small">БОРД </p>
                             </td>
                             <td>
-                                <img class="icons" src="img/icon-plant.png" alt="">
+                                <img class="icons" src="form/img/icon-plant.png" alt="">
                                 <p class="small">РАСТЕНИЕ</p>
                             </td>
 
@@ -102,15 +102,15 @@ section2.innerHTML = `
                     <table>
                         <tr>
                             <td>
-                                <img class="icons" src="img/icon-mirror.png" alt="">
+                                <img class="icons" src="form/img/icon-mirror.png" alt="">
                                 <p class="small">ЗЕРКАЛЬНАЯ </p>
                             </td>
                             <td>
-                                <img class="icons" src="img/icon-glass.png" alt="">
+                                <img class="icons" src="form/img/icon-glass.png" alt="">
                                 <p class="small">СТЕКЛЯНАЯ </p>
                             </td>
                             <td>
-                                <img class="icons" src="img/icon-magnet.png" alt="">
+                                <img class="icons" src="form/img/icon-magnet.png" alt="">
                                 <p class="small">МАГНИТНАЯ</p>
                             </td>
 

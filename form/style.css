@@ -1,5 +1,8 @@
-html{
+.container {
     box-sizing: border-box;
+}
+.section{
+
 }
 
 *,
@@ -22,21 +25,21 @@ body{
 /****** fonts ******/
 @font-face {
     font-family: Akrobat;
-    src: url('../fonts/akrobat-light.woff2') format('woff2'),
-    url('../fonts/akrobat-light.woff') format('woff');
+    src: url('fonts/akrobat-light.woff2') format('woff2'),
+    url('fonts/akrobat-light.woff') format('woff');
 }
 
 @font-face {
     font-family: daysOne;
-    src: url("../fonts/Days_One/DaysOne-Regular.ttf");
+    src: url("fonts/DaysOne-Regular.ttf");
 }
 
-body, input {
+.container {
     font-family: daysOne, sans-serif;
     font-weight: 400;
 }
 
-button {
+.container button, input {
     font-family: daysOne, sans-serif;
     font-weight: 400;
 }
@@ -44,25 +47,25 @@ button {
 /****** fonts end ******/
 
 
-table {
+.container table {
     margin: 0 auto;
     text-align: center;
 }
 
-.large {
+.container .large {
     font-size: larger;
 }
 
-.small {
+.container .small {
     font-size: xx-small;
     font-weight: bold;
 }
 
-.font-yellow {
+.container .font-yellow {
     color: #FFEC00;
 }
 
-p {
+.container p {
     margin: 0;
 }
 
@@ -95,7 +98,7 @@ p {
     min-width: 400px;
     max-width: 400px;
     margin: 0 auto;
-    background: url("../pictures/A1.jpg") round no-repeat;
+    background: url("pictures/A1.jpg") round no-repeat;
     background-size: auto 100%;
 
 }
@@ -143,7 +146,7 @@ p {
     margin: 0 auto;
     width: 1.5em;
     height: 1.5em;
-    background-image: url("../img/non-checked.png");
+    background-image: url("img/non-checked.png");
     background-size: 1em;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +154,7 @@ p {
 
 /* Radio checked */
 .radio__input:checked + .radio__icon {
-    background-image: url("../img/checked.png");
+    background-image: url("img/checked.png");
 }
 
 /* Radio checked end*/
@@ -209,7 +212,7 @@ p {
     max-height: 270px;
     min-height: 150px;
     margin: 0 auto;
-    background: url("../pictures/A2.jpg");
+    background: url("pictures/A2.jpg");
     background-size: auto 100%;
 }
 
@@ -290,11 +293,11 @@ p {
 }
 
 .section-main__small-pic {
-    border: 2px solid #FFEC00;
+    /*border: 2px solid #FFEC00;*/
     position: relative;
     height: 100%;
     width: 55%;
-    background-image: url("../img/person0.png");
+    background-image: url("img/person0.png");
     background-size:  auto 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,14 +309,14 @@ p {
     height: 100%;
 
     width: 100%;
-    background: url("../pictures/A3.jpg");
+    background: url("pictures/A3.jpg");
     background-size: auto 100%;
 }
 
 .section-main__big-pic {
     border: 2px solid #FFEC00;
     /*padding: 48% 0;*/
-    background: url("../pictures/A1.jpg");
+    background: url("pictures/A1.jpg");
     background-size: auto 100%;
     height: 100%;
     min-height: 350px;
@@ -339,7 +342,7 @@ p {
 }
 
 .section-footer__coll {
-width: 25%;
+width: 35%;
     /*border: 1px dotted grey;*/
 }
 
@@ -381,8 +384,8 @@ width: 25%;
 
     width: 100%;
     position: absolute;
-    font-size: 2em;
-    top:-.5rem;
+    font-size: 1.3em;
+    top:.15rem;
     right:0;
     margin: auto auto;
 }
